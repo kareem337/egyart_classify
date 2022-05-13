@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:go_museum_mobile_app/WRinteractiveView.dart';
 import 'dart:async';
 import 'First_Screen.dart';
 class SplashScreen extends StatefulWidget {
@@ -13,7 +14,7 @@ class _SplashScreen extends State<SplashScreen> {
     Timer(
         Duration(seconds: 3),
         () => Navigator.pushReplacement(context,
-            MaterialPageRoute(builder: (context) => WrOnboardingScreen2())));
+            MaterialPageRoute(builder: (context) => MonumentDetail())));
   }
 
   @override
